@@ -21,3 +21,14 @@ pip-delete-this-directory.txt
 # System
 .DS_Store
 Thumbs.db
+
+# Project Specific Ignored Files
+*.log
+*.zip
+*.pdf
+*.txt
+*.csv
+# Exception to allow the invoices folder structure but not files inside if wanted, 
+# but for now we ignore generated files so the repo stays clean.
+!requirements.txt
+!README.md
